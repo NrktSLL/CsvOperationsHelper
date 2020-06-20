@@ -1,6 +1,6 @@
 # CsvOperationsHelper
 
-Generic olarak [CsvHeleper](https://joshclose.github.io/CsvHelper/) kullanarak CSV dosyası oluşturan ve oluşturulan dosyayı okuyup model olarak dönen yardımcı araç 
+Generic olarak [CsvHeleper](https://joshclose.github.io/CsvHelper/) kullanarak CSV dosyası oluşturan ve oluşturulan csv dosyasını içeriğini okuyabilen yardımcı araç 
 
 ## Install
 ### Docker
