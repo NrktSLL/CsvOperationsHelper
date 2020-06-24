@@ -1,7 +1,7 @@
 using System;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
-using CsvOperationsHelper.Business.Helper.DependencyResolvers;
+using CsvOperationsHelper.DependencyResolvers;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 using Serilog;

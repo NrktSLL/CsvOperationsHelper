@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using CsvOperationsHelper.Data.Dto;
 using CsvOperationsHelper.Data.Models;
+using CsvOperationsHelper.Dto;
 
-namespace CsvOperationsHelper.Business.Helper.Mapping.AutoMapper
+namespace CsvOperationsHelper.Mapping.AutoMapper
 {
     public class MappingProfile : Profile
     {

@@ -1,7 +1,7 @@
 ﻿using CsvHelper.Configuration;
 using CsvOperationsHelper.Data.Models;
 
-namespace CsvOperationsHelper.Business.Helper.Mapping.CsvMap
+namespace CsvOperationsHelper.Mapping.CsvMap
 {
     public sealed class GroupCsvMap : ClassMap<Group>
     {

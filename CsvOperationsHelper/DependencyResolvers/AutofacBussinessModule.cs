@@ -1,7 +1,7 @@
 ﻿using Autofac;
 using CsvOperationsHelper.Business.Helper.CsvHelper;
 
-namespace CsvOperationsHelper.Business.Helper.DependencyResolvers
+namespace CsvOperationsHelper.DependencyResolvers
 {
     public class AutofacBussinessModule : Module
     {

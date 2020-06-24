@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Reflection;
 using AutoMapper;
-using CsvOperationsHelper.Business.Helper.Mapping.AutoMapper;
+using CsvOperationsHelper.Mapping.AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;

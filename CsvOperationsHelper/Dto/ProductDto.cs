@@ -3,7 +3,7 @@ using CsvOperationsHelper.Data.Enums;
 using CsvOperationsHelper.Data.Models;
 using Newtonsoft.Json;
 
-namespace CsvOperationsHelper.Data.Dto
+namespace CsvOperationsHelper.Dto
 {
     public class ProductDto
     {
