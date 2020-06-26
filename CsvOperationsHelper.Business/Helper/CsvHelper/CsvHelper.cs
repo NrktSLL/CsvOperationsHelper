@@ -60,7 +60,6 @@ namespace CsvOperationsHelper.Business.Helper.CsvHelper
                             fileStream.Flush();
                             writer.Close();
                             fileStream.Close();
-                            csv.Dispose();
                         }
                     }
                 }
@@ -118,7 +117,6 @@ namespace CsvOperationsHelper.Business.Helper.CsvHelper
                             fileStream.Flush();
                             writer.Close();
                             fileStream.Close();
-                            csv.Dispose();
                         }
                     }
                 }
@@ -181,6 +179,8 @@ namespace CsvOperationsHelper.Business.Helper.CsvHelper
                             csv.Flush();
                             writer.Flush();
                             fileStream.Flush();
+                            writer.Close();
+                            fileStream.Close();
                         }
                     }
                 }
@@ -205,7 +205,7 @@ namespace CsvOperationsHelper.Business.Helper.CsvHelper
         {
             try
             {
-                if (!File.Exists(filePath)) ErrorList.Add($"No File Available.");
+                if (!File.Exists(filePath)) ErrorList.Add("No File Available.");
 
                 using (var reader = new StreamReader(filePath))
                 {
@@ -218,6 +218,8 @@ namespace CsvOperationsHelper.Business.Helper.CsvHelper
                             for (var i = 0; i < 1; i++) csv.Read();
 
                         var result = csv.GetRecords<T>().ToList();
+
+                        reader.Close();
 
                         return result;
                     }
