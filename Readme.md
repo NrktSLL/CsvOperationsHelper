@@ -2,8 +2,6 @@
 
 [CsvHeleper](https://joshclose.github.io/CsvHelper/) kullanarak, Generic olarak CSV dosyası oluşturan ve oluşturulan .csv dosyasının içeriğini okuyabilen yardımcı araç 
 
-[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/Nrk58/CsvOperationsHelper/5/workflows/32906b6f-396a-4e68-9a05-6c7cdd0e34cd/jobs/5/steps)
-
 ## Kullanım
 ### Docker
 
